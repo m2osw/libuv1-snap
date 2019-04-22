@@ -1,0 +1,4 @@
+usr/include/uv.h             usr/include/
+usr/include/uv/*             usr/include/uv/
+usr/lib/libuv_a.a            usr/lib/
+usr/lib/pkgconfig/libuv.pc   usr/lib/pkgconfig/

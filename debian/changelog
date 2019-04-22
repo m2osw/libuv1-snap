@@ -1,3 +1,9 @@
+libuv1-snap (1.28.0.2~xenial) xenial; urgency=high
+
+  * Fixed the list of installed files now that I have that information.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Mon, 22 Apr 2019 16:44:06 -0800
+
 libuv1-snap (1.28.0.1~xenial) xenial; urgency=high
 
   * Fixed the dependencies. The package can't include itself.
