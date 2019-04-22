@@ -1,4 +1,4 @@
-libuv1-snap (1.28.0.0~xenial) xenial; urgency=high
+libuv1-snap (1.28.0.1~xenial) xenial; urgency=high
 
   * Fixed the dependencies. The package can't include itself.
 
