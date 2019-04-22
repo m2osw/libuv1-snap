@@ -2,9 +2,7 @@ Source: libuv1-snap
 Priority: extra
 Maintainer: Alexis Wilke <alexis@m2osw.com>
 Build-Depends: cmake,
-    debhelper,
-    libuv-snap (>= 1.28.0),
-    libssl
+    debhelper
 Standards-Version: 3.9.4
 Section: libs
 Homepage: https://snapwebsites.org/

@@ -1,5 +1,11 @@
 libuv1-snap (1.28.0.0~xenial) xenial; urgency=high
 
+  * Fixed the dependencies. The package can't include itself.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Mon, 22 Apr 2019 13:20:23 -0800
+
+libuv1-snap (1.28.0.0~xenial) xenial; urgency=high
+
   * First version of libuv1 within Snap.
 
- -- Alexis Wilke <alexis@m2osw.com>  Sun, 21 Mar 2019 22:55:31 -0800
+ -- Alexis Wilke <alexis@m2osw.com>  Sun, 21 Apr 2019 22:55:31 -0800
