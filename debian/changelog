@@ -1,0 +1,5 @@
+libuv1-snap (1.28.0.0~xenial) xenial; urgency=high
+
+  * First version of libuv1 within Snap.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Sun, 21 Mar 2019 22:55:31 -0800
