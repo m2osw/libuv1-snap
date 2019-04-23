@@ -1,6 +1,7 @@
 libuv1-snap (1.28.0.4~xenial) xenial; urgency=high
 
   * Updated the description in the control file.
+  * Fixed the library destination folder.
 
  -- Alexis Wilke <alexis@m2osw.com>  Mon, 22 Apr 2019 17:37:20 -0800
 
