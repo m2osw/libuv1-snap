@@ -1,8 +1,14 @@
+libuv1-snap (1.28.0.4~xenial) xenial; urgency=high
+
+  * Updated the description in the control file.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Mon, 22 Apr 2019 17:37:20 -0800
+
 libuv1-snap (1.28.0.3~xenial) xenial; urgency=high
 
   * The libraries are installed under .../x86_64-linux-gnu/...
 
- -- Alexis Wilke <alexis@m2osw.com>  Mon, 22 Apr 2019 18:04:10 -0800
+ -- Alexis Wilke <alexis@m2osw.com>  Mon, 22 Apr 2019 17:04:10 -0800
 
 libuv1-snap (1.28.0.2~xenial) xenial; urgency=high
 
