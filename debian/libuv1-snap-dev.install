@@ -1,4 +1,4 @@
 usr/include/uv.h                              usr/include/
 usr/include/uv/*                              usr/include/uv/
-usr/lib/x86_64-linux-gnu/libuv_a.a            usr/lib/
-usr/lib/x86_64-linux-gnu/pkgconfig/libuv.pc   usr/lib/pkgconfig/
+usr/lib/x86_64-linux-gnu/libuv_a.a            usr/lib/x86_64-linux-gnu/
+usr/lib/x86_64-linux-gnu/pkgconfig/libuv.pc   usr/lib/x86_64-linux-gnu/pkgconfig/
