@@ -1,3 +1,9 @@
+libuv1-snap (1.28.0.3~xenial) xenial; urgency=high
+
+  * The libraries are installed under .../x86_64-linux-gnu/...
+
+ -- Alexis Wilke <alexis@m2osw.com>  Mon, 22 Apr 2019 18:04:10 -0800
+
 libuv1-snap (1.28.0.2~xenial) xenial; urgency=high
 
   * Fixed the list of installed files now that I have that information.
