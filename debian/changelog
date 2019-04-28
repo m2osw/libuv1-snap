@@ -1,3 +1,9 @@
+libuv1-snap (1.28.0.6~xenial) xenial; urgency=high
+
+  * SNAP-688: Fixed the static library filename (removed the `_a` part).
+
+ -- Alexis Wilke <alexis@m2osw.com>  Sat, 27 Apr 2019 21:00:41 -0800
+
 libuv1-snap (1.28.0.5~xenial) xenial; urgency=high
 
   * Fixed the static library destination folder too.

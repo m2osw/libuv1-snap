@@ -350,6 +350,7 @@ target_compile_definitions(uv_a PRIVATE ${uv_defines})
 target_compile_options(uv_a PRIVATE ${uv_cflags})
 target_include_directories(uv_a PRIVATE include src)
 target_link_libraries(uv_a ${uv_libraries})
+set_target_properties(uv_a PROPERTIES OUTPUT_NAME uv)
 
 if(BUILD_TESTING)
   include(CTest)
