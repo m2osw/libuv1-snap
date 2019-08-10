@@ -1,3 +1,9 @@
+libuv1-snap (1.28.0.7~xenial) xenial; urgency=high
+
+  * Bump version to get a recompile on launchpad.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Fri,  9 Aug 2019 18:44:47 -0800
+
 libuv1-snap (1.28.0.6~xenial) xenial; urgency=high
 
   * SNAP-688: Fixed the static library filename (removed the `_a` part).
