@@ -13,6 +13,7 @@ Package: libuv1-snap-dev
 Section: libdevel
 Architecture: any
 Depends: libuv1-snap (= ${binary:Version}), ${misc:Depends}
+Conflicts: libuv, libuv1
 Description: asynchronous I/O event library for Snap! Websites
  Development files to compile against the library.
 

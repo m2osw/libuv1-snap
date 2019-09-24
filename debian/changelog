@@ -1,3 +1,9 @@
+libuv1-snap (1.28.0.8~xenial) xenial; urgency=high
+
+  * Added a couple of conflicts to resolve upgrade issues.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Tue, 24 Sep 2019 01:58:04 -0800
+
 libuv1-snap (1.28.0.7~xenial) xenial; urgency=high
 
   * Bump version to get a recompile on launchpad.
