@@ -1,3 +1,9 @@
+libuv1-snap (1.28.0.9~xenial) xenial; urgency=high
+
+  * Moved "Conflicts: ..." to correct package.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Tue, 24 Sep 2019 09:18:33 -0800
+
 libuv1-snap (1.28.0.8~xenial) xenial; urgency=high
 
   * Added a couple of conflicts to resolve upgrade issues.
