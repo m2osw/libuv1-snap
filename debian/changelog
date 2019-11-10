@@ -1,3 +1,10 @@
+libuv1-snap (1.33.1.1~xenial) xenial; urgency=high
+
+  * Trying again with the tests turned off in the `rules`.
+  * Also added debian/files which was not added earlier.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Sat,  9 Nov 2019 19:59:13 -0800
+
 libuv1-snap (1.33.1.0~xenial) xenial; urgency=high
 
   * Upgraded to upstream version 1.33.1.
