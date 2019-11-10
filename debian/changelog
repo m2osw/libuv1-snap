@@ -1,3 +1,12 @@
+libuv1-snap (1.33.1.2~xenial) xenial; urgency=high
+
+  * Trying with CXX_FLAGS instead of CMAKE_CXX_FLAGS.
+  * Install uv.a instead of uv_a.a, it looks like the name is correct when
+    linking but not when installing.
+  * Updated the README-Snap.md accordingly.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Sat,  9 Nov 2019 20:40:50 -0800
+
 libuv1-snap (1.33.1.1~xenial) xenial; urgency=high
 
   * Trying again with the tests turned off in the `rules`.
