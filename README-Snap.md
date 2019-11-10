@@ -16,9 +16,9 @@ file.
                          -DLIBUV_BUILD_TESTS=OFF \
                          -DCXX_FLAGS=-std=c++14
 
-For some reasons the installation of the archive library fails in the
-latest. I changed the install() like so:
+For some reasons the launchpad installation fails saying that the archive
+library is not available. Since we just use the shared library, I commented
+the `install()` like so:
 
-    install(TARGETS uv LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
-                       ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR})
+    #install(TARGETS uv_a ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR})
 
