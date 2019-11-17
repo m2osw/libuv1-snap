@@ -376,6 +376,7 @@ target_compile_definitions(uv_a PRIVATE ${uv_defines})
 target_compile_options(uv_a PRIVATE ${uv_cflags})
 target_include_directories(uv_a PUBLIC include PRIVATE src)
 target_link_libraries(uv_a ${uv_libraries})
+set_target_properties(uv_a PROPERTIES OUTPUT_NAME "uv")
 
 if(LIBUV_BUILD_TESTS)
   add_executable(uv_run_tests ${uv_test_sources})
@@ -416,7 +417,7 @@ if(UNIX)
   install(FILES ${CMAKE_CURRENT_BINARY_DIR}/libuv.pc
           DESTINATION ${CMAKE_INSTALL_LIBDIR}/pkgconfig)
   install(TARGETS uv LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
-  #install(TARGETS uv_a ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR})
+  install(TARGETS uv_a ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR})
 endif()
 
 if(WIN32)

@@ -17,8 +17,10 @@ file.
                          -DCXX_FLAGS=-std=c++14
 
 For some reasons the launchpad installation fails saying that the archive
-library is not available. Since we just use the shared library, I commented
-the `install()` like so:
+library is not available. I added a property to rename it as the default
+is to use a _weird_ name (`libuv_a.a`):
 
-    #install(TARGETS uv_a ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR})
+    set_target_properties(uv_a PROPERTIES OUTPUT_NAME "uv")
+
+With this extra line, the installation works as expected.
 
