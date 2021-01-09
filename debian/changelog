@@ -1,3 +1,9 @@
+libuv1-snap (1.33.1.7~xenial) xenial; urgency=high
+
+  * Need $$ to access shell variables.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Sat, 09 Jan 2021 12:16:15 -0800
+
 libuv1-snap (1.33.1.6~xenial) xenial; urgency=high
 
   * Attempt to fix the architecture using an override.
