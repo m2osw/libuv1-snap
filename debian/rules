@@ -17,3 +17,13 @@ override_dh_auto_configure:
 				-DLIBUV_BUILD_TESTS=OFF \
 				-DCXX_FLAGS=-std=c++14
 
+override_dh_install:
+	echo "--- override_dh_install"
+	ls
+	ARCH=`uname -p`; \
+	if test "${ARCH}" != "x86_64"; then \
+		sed -i -e "s/x86_64/${ARCH}/g" debian/*.install; \
+	fi
+	echo "=== override_dh_install"
+	dh_install
+
