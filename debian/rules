@@ -25,8 +25,8 @@ override_dh_install:
 	find .; \
 	mv ./debian/tmp/usr/lib/$${ARCH}-linux-gnu/libuv.a ./debian/tmp/usr/lib/$${ARCH}-linux-gnu/libuv-snap.a; \
 	mv ./debian/tmp/usr/lib/$${ARCH}-linux-gnu/libuv.so.1.0.0 ./debian/tmp/usr/lib/$${ARCH}-linux-gnu/libuv-snap.so.1.0.0; \
-	ln -s libuv.so.1.0.0 ./debian/tmp/usr/lib/$${ARCH}-linux-gnu/libuv-snap.so.1; \
-	ln -s libuv.so.1 ./debian/tmp/usr/lib/$${ARCH}-linux-gnu/libuv-snap.so; \
+	ln -s libuv-snap.so.1.0.0 ./debian/tmp/usr/lib/$${ARCH}-linux-gnu/libuv-snap.so.1; \
+	ln -s libuv-snap.so.1 ./debian/tmp/usr/lib/$${ARCH}-linux-gnu/libuv-snap.so; \
 	sed -e 's/Name: libuv/Name: libuv-snap/' -e 's/ -luv / -luv-snap /' -e 'sX\(-I.{includedir}\)X\1/libuv-snapX' ./debian/tmp/usr/lib/$${ARCH}-linux-gnu/pkgconfig/libuv.pc >./debian/tmp/usr/lib/$${ARCH}-linux-gnu/pkgconfig/libuv-snap.pc
 	dh_install
 

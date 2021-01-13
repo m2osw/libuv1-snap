@@ -1,3 +1,9 @@
+libuv1-snap (1.33.1.10~xenial) xenial; urgency=high
+
+  * Fixed the link destination (missing the -snap in the name).
+
+ -- Alexis Wilke <alexis@m2osw.com>  Wed, 13 Jan 2021 10:38:59 -0800
+
 libuv1-snap (1.33.1.9~xenial) xenial; urgency=high
 
   * Fixed path with debian/tmp.
