@@ -1,3 +1,9 @@
+libuv1-snap (1.33.1.9~xenial) xenial; urgency=high
+
+  * Fixed path with debian/tmp.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Wed, 13 Jan 2021 08:51:58 -0800
+
 libuv1-snap (1.33.1.8~xenial) xenial; urgency=high
 
   * Renaming the output library to avoid conflicts with the default libuv1.
