@@ -20,7 +20,6 @@ Package: libuv1-snap
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: libuv, libuv1
 Description: asynchronous I/O event library for Snap! Websites
  This is the library used to handle I/O events in the cassandra-cpp-driver-snap
  library.

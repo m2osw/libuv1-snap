@@ -1,3 +1,9 @@
+libuv1-snap (1.33.1.11~xenial) xenial; urgency=high
+
+  * Removed the Conflicts: ... field, that's what creates my last issue.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Sat, 15 May 2021 10:53:12 -0700
+
 libuv1-snap (1.33.1.10~xenial) xenial; urgency=high
 
   * Fixed the link destination (missing the -snap in the name).
